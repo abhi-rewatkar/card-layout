@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.board-members, .strategic-investors {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logos img {
+    max-height: 100px;
+}
+
+.investors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.investor {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.investor img {
+    width: 250px;
+}
+
+.investor p {
+    margin: 10px 0;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 0.9em;
+    color: #666;
+}
